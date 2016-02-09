@@ -1,0 +1,53 @@
+#sidebar {
+    display: block;
+}
+
+#sidebar ul.nav {
+    padding-left: 15px;
+}
+
+#sidebar .nav li a {
+    padding: 5px 10px;
+}
+
+#page-contents > :first-child, #sidebar > :first-child {
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #eee;
+    text-align: center;
+    line-height: 3em;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        min-height: 2em;
+        line-height: 2em;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+      position: relative;
+      min-height: 100%;
+    }
+    body {
+      /* Margin bottom by footer height */
+      margin-bottom: 3em;
+}
+    .footer {
+        position: fixed;
+        bottom: 0;
+        height: 3em;
+    }
+}
+
+a.external-link::after {
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.7em;
+    /* glyphicon-new-window */
+    content: '\e164';
+    margin-left: 0.4em;
+}
