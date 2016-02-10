@@ -1,8 +1,8 @@
 <?php
 
-namespace Quicklime\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use Quicklime\Http\Controllers\Controller;
+use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class PasswordController extends Controller

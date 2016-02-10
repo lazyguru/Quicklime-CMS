@@ -17,11 +17,9 @@
     },
     "autoload": {
         "psr-4": {
-            "Quicklime\\": "quicklime/app/"
-        },
-        "files": [
-            "quicklime/app/helpers.php"
-        ]
+            "App\\": "quicklime/app/",
+            "Quicklime\\": "packages/quicklime/quicklime/src/"
+        }
     },
     "scripts": {
         "post-root-package-install": [

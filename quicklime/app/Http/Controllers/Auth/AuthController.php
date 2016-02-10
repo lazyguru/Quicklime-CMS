@@ -1,10 +1,10 @@
 <?php
 
-namespace Quicklime\Http\Controllers\Auth;
+namespace App\Http\Controllers\Auth;
 
-use Quicklime\User;
+use App\User;
 use Validator;
-use Quicklime\Http\Controllers\Controller;
+use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
 

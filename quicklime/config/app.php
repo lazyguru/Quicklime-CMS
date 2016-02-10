@@ -130,7 +130,6 @@ return [
         Illuminate\Broadcasting\BroadcastServiceProvider::class,
         Illuminate\Bus\BusServiceProvider::class,
         Illuminate\Cache\CacheServiceProvider::class,
-        // Illuminate\Foundation\Providers\ConsoleSupportServiceProvider::class,
         Illuminate\Cookie\CookieServiceProvider::class,
         Illuminate\Database\DatabaseServiceProvider::class,
         Illuminate\Encryption\EncryptionServiceProvider::class,
@@ -151,10 +150,11 @@ return [
         /*
          * Application Service Providers...
          */
-        Quicklime\Providers\AppServiceProvider::class,
-        Quicklime\Providers\AuthServiceProvider::class,
-        Quicklime\Providers\EventServiceProvider::class,
-        Quicklime\Providers\RouteServiceProvider::class,
+        App\Providers\AppServiceProvider::class,
+        App\Providers\AuthServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
+        Quicklime\Providers\QuicklimeServiceProvider::class,
         Quicklime\Providers\ConsoleSupportServiceProvider::class,
 
         Bootstrapper\BootstrapperL5ServiceProvider::class,
@@ -204,8 +204,6 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
-
-        'Throttle'  => \GrahamCampbell\Throttle\Facades\Throttle::class,
 
         /*
          * Bootstrapper Facades (for Twitter Bootstrap)

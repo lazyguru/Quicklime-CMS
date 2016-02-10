@@ -14,17 +14,7 @@ return [
     */
 
     'files' => [
-        app_path('Cms/Cms.php'),
-        app_path('Cms/Resource.php'),
-        app_path('Cms/Section.php'),
-        app_path('Cms/Page.php'),
-        app_path('Cms/Toc.php'),
-        app_path('Md/Compiler.php'),
-        app_path('Md/LinkProcessor.php'),
-        app_path('Md/Parser.php'),
-        app_path('Link.php'),
-        app_path('Navigation.php'),
-        app_path('Quicklime.php'),
+        //
     ],
 
     /*
@@ -39,7 +29,7 @@ return [
     */
 
     'providers' => [
-        //
+        Quicklime\Provivers\QuicklimeServiceProvider::class
     ],
 
 ];

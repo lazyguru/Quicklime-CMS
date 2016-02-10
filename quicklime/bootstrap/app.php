@@ -28,17 +28,17 @@ $app = new Quicklime\Quicklime(
 
 $app->singleton(
     Illuminate\Contracts\Http\Kernel::class,
-    Quicklime\Http\Kernel::class
+    App\Http\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Console\Kernel::class,
-    Quicklime\Console\Kernel::class
+    App\Console\Kernel::class
 );
 
 $app->singleton(
     Illuminate\Contracts\Debug\ExceptionHandler::class,
-    Quicklime\Exceptions\Handler::class
+    App\Exceptions\Handler::class
 );
 
 /*

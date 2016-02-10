@@ -10,8 +10,3 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
-Route::group(['middleware' => 'web'], function () {
-    Route::get('{path?}', 'CmsController@show')
-            ->where(['path' => '([a-zA-Z0-9_\-\/]+$)']);
-});
