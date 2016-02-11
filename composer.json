@@ -4,6 +4,12 @@
     "keywords": ["CMS", "Markdown", "Quicklime"],
     "license": "GPL-3.0+",
     "type": "project",
+    "authors": [
+        {
+            "name": "Arcesilas",
+            "email": "Arcesilas@users.noreply.github.com"
+        }
+    ],
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
