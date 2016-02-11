@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "quicklime/quicklime": "dev-master",
+        "quicklime/quicklime": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
