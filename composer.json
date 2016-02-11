@@ -23,7 +23,7 @@
     },
     "scripts": {
         "post-root-package-install": [
-            "php -r \"copy('quicklime/.env.example', 'quicklime/.env');\""
+            "php -r \"copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
             "php artisan key:generate"
