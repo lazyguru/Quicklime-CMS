@@ -12,7 +12,7 @@
 */
 
 $app = new Quicklime\Quicklime(
-    realpath($quicklime_path), $public_path, $cms_path, $vendor_path
+    realpath($core_path), $public_path, $cms_path, $vendor_path
 );
 
 /*

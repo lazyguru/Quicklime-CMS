@@ -1,9 +1,9 @@
 <?php
 
 /*
- * Path to Quicklime directory
+ * Path to Core directory
  */
-$quicklime_path = __DIR__.'/..';
+$core_path = __DIR__.'/..';
 
 /*
  * Path to vendor directory

@@ -17,7 +17,7 @@
 |
 */
 
-require 'quicklime/bootstrap/paths.php';
+require 'core/bootstrap/paths.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -31,7 +31,7 @@ require 'quicklime/bootstrap/paths.php';
 |
 */
 
-require 'quicklime/bootstrap/autoload.php';
+require 'core/bootstrap/autoload.php';
 
 /*
 |--------------------------------------------------------------------------

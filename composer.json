@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "quicklime/app/"
+            "App\\": "core/app/"
         }
     },
     "scripts": {
