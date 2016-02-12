@@ -45,7 +45,7 @@ require 'core/bootstrap/autoload.php';
 |
 */
 
-$app = require_once $quicklime_path.'/bootstrap/app.php';
+$app = require_once $core_path.'/bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------
